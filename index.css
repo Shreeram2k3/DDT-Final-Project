@@ -1,9 +1,5 @@
-.s1
-{
-margin-top: 300px;
+body{
+  background-image: url("webbg.jpeg");
   display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background-color: blueviolet;
 }
+
