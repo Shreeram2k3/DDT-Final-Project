@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in CSE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            /* background-color: #beige; */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: #00d9ff;
+            background: linear-gradient(30deg,purple, #ff0080, #ff8000,#ffff00);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .events {
+            display: flex;
+            justify-content: center; /* Center the event boxes */
+            flex-wrap: wrap;
+        }
+
+        .event {
+            width: 300px; /* Increased width for larger boxes */
+            margin: 20px;
+            text-align: center;
+            background: #eaeaea;
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .event img {
+            width: 100%;
+            height: auto;
+            /* border-radius: 8px; */
+        }
+
+        .event:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Our Events</h1>
+        <div class="events">
+            <a class="event" href="event1.html">
+                <img src="event1.jpg" alt="Event 1">
+                <h3>HACKTOBER SPRINT</h3>
+            </a>
+            <a class="event" href="event2.html">
+                <img src="event2.jpg" alt="Event 2">
+                <h3>TECH QUIZ SHOWDOWN</h3>
+            </a>
+            <a class="event" href="event3.html">
+                <img src="event3.jpg" alt="Event 3">
+                <h3>BUG-BOUNTY</h3>
+            </a>
+            <a class="event" href="event4.html">
+                <img src="event4.jpg" alt="Event 4">
+                <h3>CODE HUNT</h3>
+            </a>
+            <a class="event" href="event5.html">
+                <img src="event5.jpg" alt="Event 5">
+                <h3>THE DATA HAVEN EVENT</h3>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

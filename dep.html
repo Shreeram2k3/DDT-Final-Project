@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments of ESEC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            background: linear-gradient(30deg,purple, #ff0080, #ff8000,#ffff00);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 900px; 
+            margin: auto;
+            
+        }
+
+        .department {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 200px; 
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .department a{
+            text-decoration: none;
+        }
+
+        .department img {
+            width: 100%;
+            height: auto;
+        }
+
+        .department h2 {
+            margin: 15px 0;
+            color: #333;
+        }
+
+        .department:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="department">
+            <a href="cseevents.html">
+            <img src="cse.jpg" alt="CSE">
+            <h2>CSE</h2></a>
+        </div>
+        <div class="department">
+            <img src="aids.jpg" alt="AIDS">
+            <h2>AIDS</h2>
+        </div>
+        <div class="department">
+            <img src="it.jpg" alt="IT">
+            <h2>IT</h2>
+        </div>
+        <div class="department">
+            <img src="ece.jpg" alt="ECE">
+            <h2>ECE</h2>
+        </div>
+        <div class="department">
+            <img src="eee.jpg" alt="EEE">
+            <h2>EEE</h2>
+        </div>
+        <div class="department">
+            <img src="mech.jpg" alt="MECH">
+            <h2>MECH</h2>
+        </div>
+        <div class="department">
+            <img src="bme.jpg" alt="BME">
+            <h2>BME</h2>
+        </div>
+        <div class="department">
+            <img src="bt.jpg" alt="BT">
+            <h2>BT</h2>
+        </div>
+    </div>
+</body>
+</html>
