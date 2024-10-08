@@ -33,6 +33,8 @@ if(!empty($Name)|| !empty($Department)|| !empty($College)|| !empty($Phoneno)|| !
             $stmt->bind_param("ssssss",$Name,$Department,$College,$Phoneno,$Email,$Event);
             $stmt->execute();
             echo "Your registeration form submitted successfully";
+            echo "<br>";
+            echo "<a href='cseevents.html'>Back to Events</a>";
         }
         else{
             echo "Already registered using this Email";
