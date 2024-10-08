@@ -101,6 +101,7 @@ nav #menubtn
   {
     display: flex;
     background-color: transparent;
+    color: #000102;
     border: none;
     padding-top:30px;
     padding-right: 10px;
@@ -176,7 +177,7 @@ button {
 {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.812);
-  background: linear-gradient(30deg,purple, #ff0080, #ff8000,#ffff00);
+background  : linear-gradient(30deg,purple, #ff0080, #ff8000,#ffff00);
   display: flex;
   margin-bottom: 50px;
 }

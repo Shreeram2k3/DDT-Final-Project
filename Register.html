@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+     .body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            height:520px;
+            background-color: #f4f4f4;
+            background: linear-gradient(30deg,purple, #ff0080, #ff8000,#ffff00);
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .container {
+            max-width: 350px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container input{
+            width: 250px;
+            height: 30px;
+            outline: none;
+            margin-bottom: 15px;
+            border: 5px solid color(grey);
+            
+        }
+
+        .container select{
+            margin-bottom: 10px;
+            width: 258px;
+            height: 36px;
+            outline: none;
+            border: 5px solid color(grey);
+            color: grey;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .event-details {
+            margin: 20px 0;
+        }
+
+
+        .container button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .container button:hover {
+            background-color: #0056b3;
+        }
+</style>
+</head>
+<body>
+    <section class="body">
+        <form name="Form" action="register.php" method="POST">
+            <div class="container">
+                <center><h2>Register</h2></center>
+                <!-- <label for="name">Name:</label><br> -->
+                <input type="text" name="Name" id="Name" placeholder="Enter your Name" required><br>
+                <!-- <label for="Dept">Choose a Dept:</label><br> -->
+                <select name="Department" id="Dept">
+                    <option value="CSE">Computer Science and Engineering</option>
+                    <option value="AIDS">Artificial Inteligence & Data Science</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="ECE">Electronics & Communication Engineering</option>
+                    <option value="BME">Biomedical Engineering</option>
+                </select><br>
+                <!-- <label for="college">CollegeName:</label><br> -->
+                <input type="text" name="College" id="college" placeholder="Enter College Name" required><br>
+                <!-- <label for="phoneno">Phone Number:</label><br> -->
+                <input type="number" name="Phoneno" id="phoneno" placeholder="Enter your phoneno" required><br>
+                <!-- <label for="Email">Email:</label><br> -->
+                <input type="email" name="Email" id="email" placeholder="Enter your Email" required><br>
+                <!-- <label for="Event">Events:</label><br> -->
+                <select name="Event" id="Event">
+                    <option value="HACKTOPER SPRINT">HACKTOPER SPRINT</option>
+                    <option value="TECH QUIZ SHOWDOWN">TECH QUIZ SHOWDOWN</option>
+                    <option value="BUG-BOUNDY">BUG-BOUNTY</option>
+                    <option value="CODE HUNT">CODE HUNT</option>
+                    <option value="THE DATA HEAVEN EVENT">THE DATA HEAVEN EVENT</option>
+                    <option value="">others</option>
+                </select><br>
+                <center><button>Register</button></center>
+            </div>
+        </form>
+
+    </section>
+    
+</body>
+</html>
